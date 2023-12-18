@@ -20,11 +20,12 @@ function writeCards(names, eventName) {
   let messages = [];
 
   for (let i = 0; i < names.length; i++) {
-    let message = `Thank you ${names[i]} for the ${eventName} gift`;
+    let message = `Thank you ${names[i]} for the wondedrful gift`;
     messages.push(message);
   }
   return messages;
 }
+let namesArray = ["Guadalupe", "OLLIE", "Aki"];
 
 function countDown() {
   let num = 10;
